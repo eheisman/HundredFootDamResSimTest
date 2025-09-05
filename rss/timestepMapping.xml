@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResSimTimeStepMap>
+  <TimeStepInfo ModelAlternative="RSAlt1" TimeStep="1 Day" Lookback="1" />
+  <TimeStepInfo ModelAlternative="BreachFail" TimeStep="1 Day" Lookback="1" />
+  <TimeStepInfo ModelAlternative="RSAlt1_S" TimeStep="1 Day" Lookback="1" />
+</ResSimTimeStepMap>
+

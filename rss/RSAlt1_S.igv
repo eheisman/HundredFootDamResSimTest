@@ -1,0 +1,15 @@
+ModifiedTime=1692304292711
+GVDataSet Name=RSAlt1_S
+Description=(Global Variable Data Set)
+
+GVRecord=TIME_SERIES
+GVRecord Name=test
+GVRecord ID=6
+GVRecord DssFilename=rss/RSAlt1_S_igv.dss
+GVRecord DssPathname=///////
+GVRecord DataLocation=false
+GVRecord LinkedLocation=
+GVRecord LinkedModel=
+GVRecord End
+
+

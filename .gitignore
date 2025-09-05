@@ -1,0 +1,74 @@
+# .gitignore for compute testing watersheds
+# this file should be placed in the folder where the watershed folder goes.
+# tested with `git ls-files -o -i --exclude-standard`
+
+
+# WAT/CWMS plugin directories not needed by ResSim
+wat/
+
+# hydrologic sampler
+hs/
+
+# fragility curve plugin files, remove if used
+fc/
+
+
+
+# HMS model files that should be excluded
+# ignore all HMS model files unless explicity needed for this test
+hms/ 
+
+
+
+# RAS model files that should be excluded
+# ignore all RAS model files unless explicitly required by this test
+ras/ 
+
+
+
+
+# FIA model files that should be excluded
+# ignore all FIA models unless explicitly required by this test.
+# ignoring this eliminates errors with FIA opening old models
+fia/
+
+
+
+
+## DON'T REMOVE THESE!
+# other types of files that we don't want in watersheds, unless specifically excluded -- there is likely a better place to save documentation of the test.
+*.bak
+*.log
+*.tmp
+*.dsc
+layouts/
+# folders that contain large files typically not needed for a compute test
+maps/
+terrain/
+
+# outputs - nothing should be saved here (WAT repo)
+runs/
+# don't want to keep the old comparison results around
+*.CompareOutput
+
+# general files that should never be needed
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pptx
+*.ppt
+*.pdf
+*.msg
+*.jpg
+*.png
+*.bmp
+*.gif
+# .tif is not listed as terrain files might be needed.
+*.7z
+*.zip
+*.rar
+*.html
+*.css
+*.tar
+*.tgz
